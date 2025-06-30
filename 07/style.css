@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(14, 14, 14);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+.container {
+    background-color: #252d37;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+}
+
+.img {
+    background-color: #313d4f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 7rem;
+}
+
+.title {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 4;
+    color: aliceblue;
+}
+
+.text {
+    font-size: 19px;
+    color: beige;
+    margin-left: 30px;
+    line-height: 2;
+}
+
+.number {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.number-btn {
+  background-color: #313d4f;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.number-btn:hover {
+  background-color: #fb7413; /* cam sáng khi hover */
+  color: white;
+}
+.number-btn.active {
+  background-color: #fb7413; /* cam sáng khi được chọn */
+  color: white;
+}
+
+.button {
+    background-color: #fb7413;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left:50px;
+    line-height: 3;
+    
+}

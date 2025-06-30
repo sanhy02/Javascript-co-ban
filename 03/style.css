@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libertinus Math', sans-serif;
+    background-color: bisque;
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: white;
+    padding: 45px;
+    gap: 20px;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.text{
+    font-size: 16px;
+}
+
+.time-border {
+    background-color: lightpink;
+    width: 600px;
+    height: 140px;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.preparation {
+    font-size: 25px;
+    font-weight: 600;
+    color: brown;
+    padding-left: 50px;
+    padding-top: 13px;
+}
+
+.time {
+    font-size: 16px;
+    padding-left: 70px;
+}
+
+.li {
+    line-height: 30px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    color: brown;
+}
+
+.ingredients{
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+td {
+    border-bottom: 2px solid #212529;
+    gap: 10px;
+    line-height: 40px;
+    padding-left: 20px;
+}

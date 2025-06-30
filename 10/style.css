@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #97FFFF;
+}
+
+.navbar {
+    background-color: #3498db;
+    display: flex;
+    height: 120px;
+    gap: 750px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    line-height: 2;
+}
+
+.menu:hover li a{
+    background-color: #2980b9;
+    color: white;
+}

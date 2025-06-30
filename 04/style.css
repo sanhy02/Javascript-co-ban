@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    width: 50rem;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 60px; 
+}
+
+.sub-header {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.sub-header-content {
+    font-size: 18px; /* kích thước chứ */
+    font-weight: normal; 
+    max-height: 0;
+    overflow: hidden; /* Không cho nội dung tràn ra ngoài khi bị giới hạn chiều cao */
+    transition: max-height 0.4s ease; /* Hiệu ứng khi thay đổi max-height mượt trong 0.4s */
+    margin-top: 0.5rem;
+}
+
+.sub-header button {
+    background: none; /* Không nền, trong suốt */
+    border: none;  /* Không viền */
+    cursor: pointer; /* Hiển thị bàn tay khi hover */
+}
+
+.sub-header {
+    border-bottom: 1px solid #eee;  /* Đường gạch mờ ngăn cách các mục */
+    padding: 1rem 0; /* Tạo khoảng cách trên/dưới mỗi câu hỏi */
+}
+
+
+
