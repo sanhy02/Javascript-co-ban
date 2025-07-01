@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.slider-container {
+  width: 100%;                 /* Chiếm toàn bộ chiều ngang màn hình */
+  max-width: 800px;            /* Giới hạn không vượt quá 800px */
+  margin: 40px auto;           /* Căn giữa theo chiều ngang */
+  overflow-x: scroll;          /* Cho phép cuộn ngang */
+  scroll-snap-type: x mandatory;  /* Kích hoạt chế độ cuộn “dính” theo trục X */
+  display: flex;               /* Dùng flexbox để xếp slider ngang */
+  border-radius: 10px;         /* Bo tròn viền container */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Đổ bóng đẹp */
+  scroll-behavior: smooth;     /* Tạo hiệu ứng trượt mượt khi cuộn */
+}
+
+.slider {
+    display: flex;
+    object-fit: cover;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+img {
+    border-radius: 10px;
+    width: 200px;
+    object-fit: cover;
+}
